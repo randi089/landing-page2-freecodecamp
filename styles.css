@@ -251,4 +251,10 @@ footer > p > a:hover {
   .content {
     padding: 0;
   }
+
+  .card {
+    max-width: unset;
+    min-width: unset;
+    width: 100%;
+  }
 }
