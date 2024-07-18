@@ -206,6 +206,8 @@ main > .main > form > * {
 #videos > iframe {
   border: 10px solid #fff;
   border-radius: 5px;
+  width: 695px;
+  min-height: 391px;
 }
 
 footer {
@@ -226,10 +228,14 @@ footer > p > a:hover {
   text-decoration: underline;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1100px) {
   header {
     justify-content: center;
     padding: 0;
+  }
+
+  .content {
+    padding: 0 1em;
   }
 }
 
@@ -264,5 +270,11 @@ footer > p > a:hover {
     max-width: unset;
     min-width: unset;
     width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  #videos > iframe {
+    width: 576px;
   }
 }
